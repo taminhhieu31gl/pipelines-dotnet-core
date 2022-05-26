@@ -32,4 +32,3 @@ steps:
     appType: 'webApp'
     WebAppName: 'demositecore'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
-    DeploymentType: webDeploy
