@@ -19,7 +19,7 @@ steps:
 
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: '/home/vsts/work/1/s/bin/Release/net6.0/'
+    rootFolderOrFile: '/home/vsts/work/1/s/bin/Release/net6.0/pipelines-dotnet-core.dll'
     includeRootFolder: true
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
